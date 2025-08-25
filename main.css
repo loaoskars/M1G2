@@ -1,0 +1,58 @@
+main{
+    display: block;
+    margin: auto;
+    background-color: rgb(86, 23, 23);
+    width: 75%;
+
+}
+.myndir{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+img{
+    display: block;
+   width: 40%;
+}
+h1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+          font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+    color: white;
+    font-size: 9em;
+}
+h1 a:hover{
+    color: rgb(234, 234, 0);
+}
+.texti{
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 13px;
+}
+p{
+      font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    transform: perspective(400px) rotateX(10deg);
+}
+
+h3{
+    text-align: center;
+      font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
